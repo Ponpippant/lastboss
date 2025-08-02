@@ -1,0 +1,43 @@
+body {
+  font-family: 'Sarabun', sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+.thankyou-container {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #28a745;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #444;
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+.btn-back {
+  text-decoration: none;
+  background-color: #0078D7;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-back:hover {
+  background-color: #005fa3;
+}
